@@ -1,0 +1,5 @@
+#gallary{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+}

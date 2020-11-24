@@ -1,0 +1,43 @@
+.upload {
+    
+    font-size:20px;
+    padding:10px;
+    background-color:lightblue;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+input[type=submit] {
+    
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+input[type=file] {
+    
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  } 
+  
+#tags {
+    
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }  
+  

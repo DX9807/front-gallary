@@ -1,0 +1,27 @@
+.viewImage {
+    z-index:10;
+    background-color:white;
+    height:100%;
+    width:100%;
+    margin: 8px 0;
+}
+
+.viewImage #shiftleft {
+    float: left;
+}
+
+.viewImage #shifright {
+    float: right;
+}
+
+button {
+    
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+  }

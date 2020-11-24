@@ -1,0 +1,21 @@
+.images{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin:50px;
+    padding:50px;
+    background-color:lightgreen;
+}
+
+.single{
+    padding:10px
+}
+
+#popup {
+    z-index:10;
+    background-color:white;
+    height:100%;
+    width:60%;
+    position: absolute;
+    display:none;
+}

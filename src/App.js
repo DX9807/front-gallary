@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Upload from './components/Upload.js';
+import Gallary from './components/Gallary.js';
+import View from './components/View.js';
+import './App.css'
+import {BrowserRouter as Router,Route} from 'react-router-dom';
 
 function App() {
-  return (
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <h1>Gallary</h1>
+    <Router>
+      <Upload />
+      <Route exact path="/"><Gallary /></Route>
+      <Route exact path="/view/:id"><View /></Route>
+    </Router>
     </div>
-  );
+    
+  )   
 }
 
 export default App;
